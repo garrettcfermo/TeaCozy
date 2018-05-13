@@ -113,3 +113,12 @@ header nav a {
 }
 
 /*Footer Section */
+
+footer .info {
+  height: 200px;
+}
+
+footer .copyright{
+  text-align: left;
+  margin-left: 20px;
+}
