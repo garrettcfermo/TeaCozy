@@ -86,11 +86,30 @@ header nav a {
   justify-content: center;
 }
 
-
-
-
-
-
 /*Locations Section */
+
+#locations {
+  background-image: url("../../Resources/Images/img-locations-background.jpg");
+  height: 500px;
+  width: 100%;
+}
+
+
+.location_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.location {
+  display: inline-block;
+  margin: 0px 20px;
+  width: 300px;
+  background-color: black;
+}
+
+#locations h2 {
+  margin-top: 50px;
+}
 
 /*Footer Section */
