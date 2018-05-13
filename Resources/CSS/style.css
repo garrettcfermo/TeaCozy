@@ -9,14 +9,13 @@ body {
   text-align: center;
 }
 
-
-
 /* Header */
 
 header {
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 1;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
@@ -36,4 +35,32 @@ header nav a {
   display: inline-block;
     padding-right: 40px;
     color: seashell;
+}
+
+
+/* Content Secion */
+
+.content {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  padding-top: 70px;
+}
+
+
+/* Mission Section */
+
+.mission {
+  background-image: url("../../Resources/Images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.mission .text-content {
+  background-color: black;
+  width: 1200px;
+
 }
